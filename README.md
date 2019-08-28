@@ -13,8 +13,8 @@ Preparación de los datos
 __1. Convertir a 'utf-8'las columnas que se van a tokenizar__
 
 ``` sql 
-update dim_denue set denue_nombre_razon_social = convert_from(convert_to(nom_v_e_1, 'latin-1'), 'utf-8') 
-update dim_denue set actividad_nombre = convert_from(convert_to(nom_v_e_1, 'latin-1'), 'utf-8') 
+update dim_denue set denue_nombre_razon_social = convert_from(convert_to(denue_nombre_razon_social, 'latin-1'), 'utf-8') 
+update dim_denue set actividad_nombre = convert_from(convert_to(actividad_nombre, 'latin-1'), 'utf-8') 
 ```
 
 __2. Posteriormente se agregar de tipo texto__
