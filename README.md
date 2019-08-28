@@ -59,7 +59,11 @@ __Negación__
 ``` sql
 SELECT * FROM denue_2015 WHERE denue_nombre_razon_social_ts @@ to_tsquery('!consultorio'); 
 ```
+__Información disponible en esta liga:__ 
+
+https://drive.google.com/open?id=15DMoVcQchQYYjBtszwxzgp-JUstN2mWC
 
 
+Basado en: 
 https://www.compose.com/articles/mastering-postgresql-tools-full-text-search-and-phrase-search/
 https://wiki.hsr.ch/Datenbanken/files/Full_Text_Search_in_PostgreSQL_Luetolf_Paper_final.pdf
